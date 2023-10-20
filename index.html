@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciclo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <section class="conteiner">
+        <h1>Ciclo de estudos</h1>
+        <form id="add" >
+            <label for="txt-add">Digite o nome da máteria</label>
+            <input type="text" placeholder="Máteria" name="texto-add" id="txt-add" >
+            <label for="num-add">Numero de Horas</label>
+            <input type="number" name="numero-add" id="num-add" placeholder="Horas">
+            <input type="button" value="Add Ciclo" id="btn-add" onclick="AddMat()">
+        </form>
+        <div id="itens">
+        </div>
+        <script src="script.js"></script>
+    </section>  
+</body>
+</html>
